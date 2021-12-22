@@ -1,0 +1,66 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
+body {
+    background-color: #212224;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.title {
+    font-family: "Amatic SC", cursive;
+    font-size: 60px;
+    user-select: none;
+}
+
+.toggle {
+    cursor: pointer;
+    transition: 0, 5s;
+}
+
+#light:hover {
+    color: yellow;
+}
+
+.catty-name {
+    color: #fff;
+    transition: 0.3;
+}
+
+.catty-name:hover {
+    color: #fff;
+    transition: 0.7s;
+    font-size: 70px;
+}
+
+.main {
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+.card-title {
+    font-family: "Sacramento", cursive;
+    font-size: 60px;
+}
+
+.catty {
+    max-height: 200px;
+    object-fit: contain;
+    /* transform: rotate(20deg); */
+    transition: 0.7s;
+}
+
+.catty:hover{
+    transition: 0.7s;
+    transform: rotate(360deg);
+}
+
+.info{
+    text-align: justify;
+    line-height: 2em;
+    max-width: 900px;
+    font-size: 18px;
+}
